@@ -16,7 +16,7 @@ func showLoading(stopChan chan bool) {
 				fmt.Println("\033[1m\rDone!           \033[0m")
 				return
 			default:
-				fmt.Printf("\033[1m\r%c Загрузка...\033[0m", symb)
+				fmt.Printf("\033[1m\r%c Loading...\033[0m", symb)
 				time.Sleep(delay)
 			}
 		}
