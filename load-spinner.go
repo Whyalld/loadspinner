@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func showLoading(stopChan chan bool) {
+func ShowLoading(stopChan chan bool) {
 	symbols := `-\|/`
 	delay := 100 * time.Millisecond
 
