@@ -22,3 +22,4 @@ func ShowLoading(stopChan chan bool) {
 		}
 	}
 }
+
